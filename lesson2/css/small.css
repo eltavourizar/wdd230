@@ -1,0 +1,49 @@
+
+
+header, footer{
+    color: white;
+    background-color: #a35d57;
+    margin-top: 0px;
+    text-align: center;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+article {
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 7px;
+    max-width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+h2 {
+    background-color: gray;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+h3 {
+    margin-left: 5px;
+}
+
+img {
+    width: 50%px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+p {
+    padding: 1px 3px;
+}
