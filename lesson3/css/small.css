@@ -1,0 +1,37 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header, footer{
+    color: white;
+    background-color: #6b2c26;
+    margin-top: 0px;
+    text-align: center;
+}
+
+nav ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(3em, 1fr));
+    margin: 0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
