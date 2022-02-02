@@ -1,0 +1,83 @@
+@media only screen and (min-width: 60em) {
+    .navMenu {
+        display: flex;
+        align-content: center;
+    }
+    .navMenu li {
+        display: block;
+        flex: 1 1 auto;
+        padding: auto;
+    }
+    .navMenu a {
+        text-align: center;
+    }
+    .navMenu li:first-child {
+        display: none;
+    }
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+    
+    .event {
+        grid-column: 1;
+        grid-row: 1;
+        border: 1px solid black;
+    }
+    
+    .weather {
+        grid-column: 1;
+        grid-row: 2/3;
+        border: 1px solid black;
+    }
+    
+    .join {
+        grid-column: 1;
+        grid-row: 3;
+        border: 1px solid black;
+        
+    }
+    
+    .hero {
+        grid-column: 2 / 5;
+        grid-row: 1 / 3;
+        border: 1px solid black;
+    }
+    
+    .news{
+        grid-column: 2 / 5;
+        grid-row: 3;
+        border: 1px solid black;
+    }
+    
+    .right-column {
+        grid-column: 5;
+        grid-row: 1 / 4;
+        border: 1px solid black;
+    }
+    
+    header{
+        color: white;
+        background-color: #452e9b;
+        margin-top: 0px;
+    }
+    
+    footer {
+        color: white;
+        background-color: #452e9b;
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    .first {
+        text-align: center;
+    }
+}
