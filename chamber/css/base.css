@@ -99,12 +99,19 @@ nav {
     font-weight: 700;
 }
 
-.navMenu a:hover,
-.current {
-    color: var(--grey);
+a:hover {
+    color: greenyellow;
     background-color: var(--blue-medium);
 }
 
 .responsive li {
     display: block;
+}
+
+.date,
+aside {
+	margin: 0.5rem;
+	border: none;
+	padding: 0.75rem;
+	background-color: #452e9b;
 }
